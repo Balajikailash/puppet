@@ -1,0 +1,2 @@
+# Run puppet everyday midnight
+00 12 * * * * root /usr/bin/puppet agent --server=p-172-31-49-20.ec2.internal --no-deamonize --verbose >/dev/null 2>&1 
