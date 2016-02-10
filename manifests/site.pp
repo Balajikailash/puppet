@@ -2,6 +2,7 @@ class base {
 include ssh
 include cron
 include git
+include auth
 }
 
 node 'balaji-app1' {
