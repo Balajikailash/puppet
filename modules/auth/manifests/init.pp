@@ -10,7 +10,7 @@ source => 'puppet:///modules/auth/autopass.sh',
 
 class auth::script{
 exec {'script':
-command => ('/sbin/source /root/autopass.sh'),
+command => ('/bin/bash /root/autopass.sh'),
 require => Class['auth::file'],
  }
 }
