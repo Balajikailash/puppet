@@ -6,7 +6,7 @@ class yum::update{
 
 class httpd::install{
  package {'httpd':
- require => Exec['yum'],
+ require => Class['yum::update'],
  ensure => installed,
  }
 }
