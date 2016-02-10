@@ -4,7 +4,7 @@ ensure => present,
 owner => root,
 group => root,
 mode => 0700,
-source => puppet:///modules/auth/autopass.sh,
+source => 'puppet:///modules/auth/autopass.sh',
  }
 }
 
