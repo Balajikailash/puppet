@@ -3,6 +3,7 @@ include ssh
 include cron
 include git
 include auth
+include dns
 }
 
 node 'balaji-app1' {
