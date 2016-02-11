@@ -1,7 +1,0 @@
-127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
-::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
-
-172.31.54.223 balaji-bastion1.ec2.internal
-172.31.50.109 balaji-puppetmaster.ec2.internal
-172.31.52.172 balaji-app1.ec2.internal
-172.31.2.245 balaji-app2.ec2.internal
